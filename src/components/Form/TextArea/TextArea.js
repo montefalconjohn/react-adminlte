@@ -66,6 +66,7 @@ TextArea.propTypes = {
     errors: PropTypes.objectOf(
         PropTypes.arrayOf(PropTypes.string)
     ),
+    /** This prop shows the maximum length available in the TextArea*/
     showCounter: PropTypes.bool,
     /** Specifies a Bootstrap 3 grid class*/
     gridClass: PropTypes.string,

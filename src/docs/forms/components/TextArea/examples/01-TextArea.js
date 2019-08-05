@@ -19,6 +19,7 @@ export default class TextArea01 extends React.Component {
                     <TextArea name="keyword"
                               label="Basic Text Area"
                               value={this.state.keyword}
+                              showCounter
                               onChange={this.handleChange}/>
                 </div>
                 <div className="col-xs-6">
@@ -27,6 +28,7 @@ export default class TextArea01 extends React.Component {
                               disabled
                               gridClass="roundTextArea"
                               maxLength={255}
+                              showCounter
                               placeholder="TextArea with placeholder"/>
                 </div>
             </div>
